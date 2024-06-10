@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Detetive Kay</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            font-size: 30px;
+            font-family: monospace;
+            margin: 0;
+            height: 100vh;
+            position: relative; /* Adicionado para permitir o posicionamento absoluto dos filhos */
+            padding: 0 10px;
+        }
+        p {
+            margin: 0;
+            white-space: nowrap;
+            overflow-x: auto;
+            position: absolute; /* Cada parágrafo pode ser posicionado individualmente */
+        }
+        /* Posicionamento individual dos parágrafos */
+        p:nth-child(1) { top: 0; left: 0; }
+        p:nth-child(2) { top: 20%; left: 50%; }
+        p:nth-child(3) { top: 40%; left: 0; }
+        p:nth-child(4) { top: 60%; left: 50%; }
+        p:nth-child(5) { top: 80%; left: 0; }
+        p:nth-child(6) { top: 100%; left: 50%; }
+    </style>
+</head>
+<body>
+    <p>.... .</p>
+    <p>.-.. .-..</p>
+    <p>--- /</p>
+    <p>.-- ---</p>
+    <p>.-. .-..</p>
+    <p>-..</p>
+</body>
+</html>
